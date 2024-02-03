@@ -4,26 +4,40 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/material font.css" rel="stylesheet">
+        <script src="js/bootstrap.js"></script>
     </head>
     <body>
-        <form>
-            <h1>Welcome to Credit card Self-service System</h1>
-            <table>
-                <tr>
-                    <td> <label for="username">*User Name:</label> </td>
-                    <td colspan="2"><input type="text" id="username" name="username" requried></td>
-                </tr>
-                <tr>
-                    <td><label for="password">*Password:</label></td>
-                    <td colspan="2"><input type="password" id="password" name="password" required></td>
-                </tr>    
-                <tr>
-                    <td></td>
-                    <td><button type="Submit">Submit</button></td>
-                    <td><button type="reset">Clear</button></td>
-                </tr>    
-            </table>
+        <div class="container-fluid">
+            <form>
+                <h1>Welcome to Credit card Self-service System</h1>
+                <table>
+                    <tr>
+                        <td> <label for="username" class="form-label">*User Name:</label> </td>
+                        <td colspan="2">
+                            <div class="input-group">
+                                <input class="form-control" type="text" id="username" name="username" required="required"><span class="input-group-text material-icons">account_circle</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password" class="form-label">*Password:</label></td>
+                        <td colspan="2">
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="password" name="password" required="required"><span class="input-group-text material-icons">lock</span>
+                            </div>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-outline-success" type="Submit">Submit</button></td>
+                        <td><button class="btn btn-outline-danger" type="reset">Clear</button></td>
+                    </tr>    
+                </table>
             </form>
+        </div>
+
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>
