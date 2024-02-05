@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, rgba(0, 225, 225, 0.4)50%, rgba(254,214,227,0.4)50%),url("../resources/background.jpg") center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif; 
+}
+form {
+    width:fit-content;
+    background: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);    
+    height: auto;
+    min-height: 450px;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+}
+.head {
+    margin: 1% auto 1% auto;
+    text-align: center;
+    font-size: 250%; 
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+.icon {
+    background: #fff;
+    color: #9f2b68;
+    margin: 10% auto 10% auto;
+}
+
+input[type=text]{
+    margin: 10% auto 10% auto;
+}
+input[type=password]{
+    margin: 10% auto 10% auto;
+}
+.header{
+    text-align: center;
+    font-size: 250%; 
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+label{
+    margin: 10% auto 10% auto;
+}
+button{
+    margin-top:20%;
+    width:95%;
+}
